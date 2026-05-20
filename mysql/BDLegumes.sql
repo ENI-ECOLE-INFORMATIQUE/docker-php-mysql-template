@@ -1,4 +1,7 @@
 USE legumes;
+
+SET NAMES utf8mb4;
+
 CREATE TABLE articles (
 	identifiant INT(11) NOT NULL AUTO_INCREMENT,
 	libelle VARCHAR(40) NOT NULL,

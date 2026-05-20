@@ -28,6 +28,8 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
       
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+      
       # Scripts SQL automatiques
       - ./mysql/init.sql:/docker-entrypoint-initdb.d/01-init.sql
       - ./mysql/BDLegumes.sql:/docker-entrypoint-initdb.d/02-BDLegumes.sql
