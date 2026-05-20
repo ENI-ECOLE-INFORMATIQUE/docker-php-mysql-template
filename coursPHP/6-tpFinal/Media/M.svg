@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="770" height="320" color-interpolation="auto" color-rendering="auto" fill="black" font-family="'Dialog'" font-size="12" image-rendering="auto" shape-rendering="auto" stroke="black" stroke-linecap="square" stroke-miterlimit="10" text-rendering="auto" viewBox="-10 -10 770 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="a">
+<path d="m0 0v90h350v-90z"/>
+</clipPath>
+<clipPath id="b">
+<path d="m0 0v100h440v-100z"/>
+</clipPath>
+<clipPath id="d">
+<path d="m0 0v120h210v-120z"/>
+</clipPath>
+<clipPath id="c">
+<path d="m0 0v120h220v-120z"/>
+</clipPath>
+</defs>
+<rect x="-10" y="-10" width="770" height="320" fill="white"/>
+<g transform="translate(390,200)" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="0">
+<rect x=".5" y=".5" width="348.5" height="88.5" clip-path="url(#a)" stroke="none"/>
+</g>
+<g transform="translate(390,200)">
+<rect x=".5" y=".5" width="348.5" height="88.5" clip-path="url(#a)" fill="none"/>
+<text x="161" y="17.9688" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">Avis</text>
+<path d="m1 23.969h348" clip-path="url(#a)" fill="none"/>
+<path d="m1 44.938h348" clip-path="url(#a)" fill="none"/>
+<text x="5" y="59.9062" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">+ getAvis(idRestaurant : int) : iterable</text>
+</g>
+<g transform="translate(10,200)" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="0">
+<rect x=".5" y=".5" width="348.5" height="88.5" clip-path="url(#a)" stroke="none"/>
+</g>
+<g transform="translate(10,200)">
+<rect x=".5" y=".5" width="348.5" height="88.5" clip-path="url(#a)" fill="none"/>
+<text x="140" y="17.9688" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">Restaurant</text>
+<path d="m1 23.969h348" clip-path="url(#a)" fill="none"/>
+<path d="m1 44.938h348" clip-path="url(#a)" fill="none"/>
+<text x="5" y="59.9062" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">+ getRestaurants() : iterable</text>
+<text x="5" y="75.875" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">+ getRestaurant(idRestaurant : int) : array|bool</text>
+</g>
+<g transform="translate(160,10)" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="0">
+<rect x=".5" y=".5" width="438.5" height="98.5" clip-path="url(#b)" stroke="none"/>
+</g>
+<g transform="translate(160,10)">
+<rect x=".5" y=".5" width="438.5" height="98.5" clip-path="url(#b)" fill="none"/>
+<text x="186" y="17.9688" clip-path="url(#b)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">«Abstract»</text>
+<text x="160" y="33.9375" clip-path="url(#b)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">ModeleDeDonnees</text>
+<path d="m1 39.938h438" clip-path="url(#b)" fill="none"/>
+<text x="5" y="54.9062" clip-path="url(#b)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">- cnx : ?PDO</text>
+<path d="m1 60.906h438" clip-path="url(#b)" fill="none"/>
+<text x="5" y="75.875" clip-path="url(#b)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve"># executerRequete(sql : string, [parametres : array]) : PDOStatement</text>
+<text x="5" y="91.8438" clip-path="url(#b)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">- getConnexion() : PDO</text>
+</g>
+<g transform="translate(370,100)">
+<path d="m10.5 10.5v50" clip-path="url(#d)" fill="none"/>
+<path d="m10.5 60.5h180" clip-path="url(#d)" fill="none"/>
+<path d="m190.5 60.5v40" clip-path="url(#d)" fill="none"/>
+<path d="m4 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#d)" fill="#fff" stroke="none"/>
+<path d="m4 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#d)" fill="none"/>
+</g>
+<g transform="translate(180,100)">
+<path d="m200.5 10.5v50" clip-path="url(#c)" fill="none"/>
+<path d="m200.5 60.5h-190" clip-path="url(#c)" fill="none"/>
+<path d="m10.5 60.5v40" clip-path="url(#c)" fill="none"/>
+<path d="m194 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#c)" fill="#fff" stroke="none"/>
+<path d="m194 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#c)" fill="none"/>
+</g>
+</svg>

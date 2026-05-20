@@ -1,0 +1,65 @@
+body {
+    counter-reset: section;
+}
+
+details.correction {
+    background-color: #2A8832;
+    padding: 5px 15px;
+}
+
+summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+div.corrige > code {
+    display: block;
+    padding: 10px;
+    background-color: white;
+}
+
+details summary {
+    background-image: url(bas.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+details[open] summary {
+    background-image: url(haut.svg);
+}
+
+img {
+    border: 1px solid black;
+}
+
+div img {
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+.enonce {
+    color: white;
+    font-style: italic;
+    padding: 10px;
+    text-align: justify;
+}
+
+.dif1 {
+    background-image: url('brain.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px top;
+}
+
+.dif2 {
+    background-image: url('brain.svg'), url('brain.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 10px top, right 60px top;
+}
+
+.dif3 {
+    background-image: url('brain.svg'), url('brain.svg'), url('brain.svg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right 10px top, right 60px top, right 110px top;
+}

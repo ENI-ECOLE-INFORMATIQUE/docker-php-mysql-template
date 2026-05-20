@@ -1,0 +1,201 @@
+body {
+    background : #343642 ! important;
+    color: white;
+    padding-bottom: 120px;
+    margin: 0;
+    max-width: 1003px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, .banniere {
+    background: #6D797A;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0 1em 0;
+}
+
+.banniere {
+    display: block;
+    background-color: #144a7f;
+}
+
+h2 {
+    background-color: #348899;
+}
+
+h3 {
+    background-color: #483767;
+}
+
+h1, h2, h3, h4, .banniere {
+    padding: 5px 140px 5px 5px;
+}
+
+div:not(.corrige) {
+    background-color: white;
+    color: black;
+    padding: 10px
+}
+
+body:after {
+    content: url(logo-eni.svg);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+code:before {
+    float: right;
+    margin: 5px -40px 0 0;
+}
+code[data-type='php']:before {
+    content: url(php.svg);
+}
+
+code[data-type='json']:before {
+    content: url(json.svg);
+}
+
+code[data-type='js']:before {
+    content: url(js.svg);
+}
+
+code[data-type='html']:before {
+    content: url(html.svg);
+}
+
+code[data-type='css']:before {
+    content: url(css.svg);
+}
+
+code[data-type='ini']:before {
+    content: url(ini.svg);
+}
+
+.execution + div:before {
+    content: url(web.svg);
+    float: right;
+    margin: 5px -40px 0 5px;
+}
+
+.commentaires + div:before {
+    content: url(com.svg);
+    float: right;
+    margin: 5px -40px 0 5px;
+}
+
+.execution + div,
+.commentaires + div,
+code[data-type] {
+    display: block;
+    padding: 10px;
+    background-color: white;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    hyphens: auto;
+    min-height: 80px;
+}
+
+p code, h2 code, h3 code, h3 code, h4 code, h5 code {
+    display: initial;
+    padding: initial;
+    background-color: initial;
+}
+
+p {
+    padding: 0 10px 0 10px;
+}
+
+form, fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select {
+    margin: 5px;
+}
+
+table {
+    background-color: white;
+}
+
+table, td, th {
+    color: black;
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding: 5px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.executer,.precedent {
+    display: inline-block;
+    background-color: #144a7f;
+    height: 24px;
+    vertical-align: middle;
+    margin: 5px 0 5px 0;
+    font-size: 20px;
+}
+
+.executer {
+    padding-left: 5px;
+}
+
+.precedent {
+    padding-right: 5px;
+}
+
+.executer:after, .precedent:before {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #343642;
+}
+
+.executer:after {
+    content: url('suivant.svg');;
+}
+
+.precedent:before {
+    content: url('precedent.svg');;
+}
+
+[title="au-delà du programme"] {
+    background-color: #27742C;
+    background-image: url('plus.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px top;
+}
+
+@media screen and (max-width: 1050px) {
+    code:before,
+    .execution + div:before,
+    .commentaires + div:before {
+        margin: 5px -10px 0 5px;
+    }    
+}
+
+/* correction du contrast par défaut de xdebug pour respecter le RGAA */
+.xdebug-error font, .xdebug-var-dump font[color="#4e9a06"] {
+    color: #0F7E16 !important;
+}
+
+.xdebug-var-dump font[color="#888a85"] {
+    color: #717A63 !important;
+}
+
+.xdebug-var-dump font[color="#f57900"] {
+    color: #C75300 !important;
+}

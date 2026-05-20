@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="740" height="310" color-interpolation="auto" color-rendering="auto" fill="black" font-family="'Dialog'" font-size="12" image-rendering="auto" shape-rendering="auto" stroke="black" stroke-linecap="square" stroke-miterlimit="10" text-rendering="auto" viewBox="-20 50 740 310" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="d">
+<path d="m0 0v90h210v-90z"/>
+</clipPath>
+<clipPath id="a">
+<path d="m0 0v80h210v-80z"/>
+</clipPath>
+<clipPath id="c">
+<path d="m0 0v110h250v-110z"/>
+</clipPath>
+<clipPath id="e">
+<path d="m0 0v40h140v-40z"/>
+</clipPath>
+<clipPath id="b">
+<path d="m0 0v110h190v-110z"/>
+</clipPath>
+</defs>
+<rect x="-20" y="50" width="770" height="320" fill="#fff"/>
+<g transform="translate(0,70)" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="0">
+<rect x=".5" y=".5" width="208.5" height="88.5" clip-path="url(#d)" stroke="none"/>
+</g>
+<g transform="translate(0,70)">
+<rect x=".5" y=".5" width="208.5" height="88.5" clip-path="url(#d)" fill="none"/>
+<text x="80" y="17.9688" clip-path="url(#d)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">Routeur</text>
+<path d="m1 23.969h208" clip-path="url(#d)" fill="none"/>
+<path d="m1 44.938h208" clip-path="url(#d)" fill="none"/>
+<text x="5" y="59.9062" clip-path="url(#d)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">+router()</text>
+<text x="5" y="75.875" clip-path="url(#d)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">-afficherErreur()</text>
+</g>
+<g transform="translate(170,260)" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="0">
+<rect x=".5" y=".5" width="208.5" height="78.5" clip-path="url(#a)" stroke="none"/>
+</g>
+<g transform="translate(170,260)">
+<rect x=".5" y=".5" width="208.5" height="78.5" clip-path="url(#a)" fill="none"/>
+<text x="71" y="17.9688" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">CtrlAccueil</text>
+<path d="m1 23.969h208" clip-path="url(#a)" fill="none"/>
+<path d="m1 44.938h208" clip-path="url(#a)" fill="none"/>
+<text x="5" y="59.9062" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">+index()</text>
+</g>
+<g transform="translate(490,260)" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="0">
+<rect x=".5" y=".5" width="208.5" height="78.5" clip-path="url(#a)" stroke="none"/>
+</g>
+<g transform="translate(490,260)">
+<rect x=".5" y=".5" width="208.5" height="78.5" clip-path="url(#a)" fill="none"/>
+<text x="59" y="17.9688" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">CtrlRestaurant</text>
+<path d="m1 23.969h208" clip-path="url(#a)" fill="none"/>
+<path d="m1 44.938h208" clip-path="url(#a)" fill="none"/>
+<text x="5" y="59.9062" clip-path="url(#a)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">+index()</text>
+</g>
+<g transform="translate(320,70)" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="0">
+<rect x=".5" y=".5" width="248.5" height="108.5" clip-path="url(#c)" stroke="none"/>
+</g>
+<g transform="translate(320,70)">
+<rect x=".5" y=".5" width="248.5" height="108.5" clip-path="url(#c)" fill="none"/>
+<text x="92" y="17.9688" clip-path="url(#c)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">«abstract»</text>
+<text x="92" y="33.9375" clip-path="url(#c)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">Controleur</text>
+<path d="m1 39.938h248" clip-path="url(#c)" fill="none"/>
+<path d="m1 60.906h248" clip-path="url(#c)" fill="none"/>
+<text x="5" y="75.875" clip-path="url(#c)" font-family="sans-serif" font-size="14" stroke="none" xml:space="preserve">+executer(ctrl : string, action : string)</text>
+<text x="5" y="91.8438" clip-path="url(#c)" font-family="sans-serif" font-size="14" font-style="italic" stroke="none" xml:space="preserve">+index()</text>
+</g>
+<g transform="translate(200,100)" fill="none" stroke-dasharray="8,5" stroke-linecap="butt" stroke-miterlimit="5">
+<path d="m120.5 20.5h-110" clip-path="url(#e)"/>
+<path d="m109.24 14 11.258 6.5-11.258 6.5" clip-path="url(#e)" stroke-dasharray="none" stroke-linecap="square" stroke-miterlimit="10"/>
+</g>
+<g transform="translate(200,100)" font-family="sans-serif" font-size="14">
+<text x="46.8755" y="16" clip-path="url(#e)" stroke="none" xml:space="preserve">«use»</text>
+</g>
+<g transform="translate(260,170)">
+<path d="m170.5 10.5v40" clip-path="url(#b)" fill="none"/>
+<path d="m170.5 50.5h-160" clip-path="url(#b)" fill="none"/>
+<path d="m10.5 50.5v40" clip-path="url(#b)" fill="none"/>
+<path d="m164 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#b)" fill="#fff" stroke="none"/>
+<path d="m164 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#b)" fill="none"/>
+</g>
+<g transform="translate(420,170)">
+<path d="m10.5 10.5v40" clip-path="url(#b)" fill="none"/>
+<path d="m10.5 50.5h160" clip-path="url(#b)" fill="none"/>
+<path d="m170.5 50.5v40" clip-path="url(#b)" fill="none"/>
+<path d="m4 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#b)" fill="#fff" stroke="none"/>
+<path d="m4 21.758 6.5-11.258 6.5 11.258h-13" clip-path="url(#b)" fill="none"/>
+</g>
+</svg>
