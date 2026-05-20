@@ -21,16 +21,15 @@ services:
 
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: cours_docker
-      MYSQL_USER: etudiant
-      MYSQL_PASSWORD: etudiant
 
     ports:
       - "3306:3306"
 
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      
+      # Scripts SQL automatiques
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/01-init.sql
       - ./mysql/BDLegumes.sql:/docker-entrypoint-initdb.d/02-BDLegumes.sql
 
   phpmyadmin:
