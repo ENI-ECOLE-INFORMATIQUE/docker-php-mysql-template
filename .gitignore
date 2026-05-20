@@ -31,6 +31,12 @@
 !bin/symfony_requirements
 /vendor/
 
+/node_modules/
+.env
+.DS_Store
+.idea/
+.vscode/settings.json
+
 # Assets and user uploads
 /web/bundles/
 /web/uploads/
